@@ -5,6 +5,7 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+    "android-dev": "adb reverse tcp:8081 tcp:8081 && react-native run-android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
@@ -12,9 +13,9 @@
     "expo": "~50.0.6",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.2",
-    "react-native-web": "~0.19.6",
+    "react-native": "0.73.4",
     "react-dom": "18.2.0",
+    "realm": "11.0.0",
     "@expo/metro-runtime": "~3.1.3"
   },
   "devDependencies": {
